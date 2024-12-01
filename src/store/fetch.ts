@@ -2,9 +2,11 @@ import { create } from "zustand";
 
 // Zustand store: global holatni boshqarish
 interface FetchState {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     data: any | null;
     error: string | null;
     loading: boolean;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     setData: (data: any) => void;
     setError: (error: string) => void;
     setLoading: (loading: boolean) => void;

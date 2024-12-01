@@ -27,7 +27,7 @@ export type CountryProgram = Program;
 export type Country = {
     id: number; // Unikal identifikator
     name: string; // Mamlakat nomi
-    isInSchengen: boolean; // Shengen hududiga tegishliligi
+    isInSchengen: number; // Shengen hududiga tegishliligi
     programs: CountryProgram[]; // Mamlakatdagi dasturlar
 };
 

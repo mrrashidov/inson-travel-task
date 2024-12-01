@@ -1,5 +1,4 @@
 import { TravelPurposes, TravelTab, TypeOfCoverage } from "#/data";
-import { title } from "process";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const programDescriptions: any = {
