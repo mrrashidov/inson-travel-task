@@ -1,0 +1,18 @@
+# Barcha fayllar uchun umumiy sozlamalar
+root = true
+
+[*]
+charset=utf-8                   # Kodlash turi
+indent_style=space              # Indentatsiya turi: space yoki tab
+indent_size=4                   # Bo‘sh joy soni
+end_of_line=lf                  # Qator oxiri formati: lf, crlf yoki cr
+insert_final_newline=true       # Fayl oxirida yangi qator qo‘shish
+trim_trailing_whitespace=true   # Satir oxiridagi bo‘sh joylarni olib tashlash
+
+# Faqat .md fayllar uchun sozlamalar
+[*.md]
+trim_trailing_whitespace=false  # Markdown fayllarda satir oxiridagi bo‘sh joylarni olib tashlamaslik
+
+# Faqat .json va .yml fayllar uchun sozlamalar
+[*.{json,yml,css,scss}]
+indent_size=2                   # JSON va YAML fayllar uchun 2 bo‘sh joy indentatsiyasi
